@@ -1,0 +1,12 @@
+torch
+torchvision
+pillow
+mss
+opencv-python
+pynput
+vgamepad
+pytorch-grad-cam
+tensorboard
+tqdm
+numpy
+pywin32

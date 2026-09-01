@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Training data and generated media
+data/
+cam_videos/
+debug_masked/
+gradcam_out/
+
+# Model artifacts and experiment outputs
+checkpoints/
+runs/
+*.pth
+*.onnx
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
