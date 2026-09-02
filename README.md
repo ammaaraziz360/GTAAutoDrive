@@ -1,8 +1,14 @@
-GTAAutoDrive
+# GTAAutoDrive
 
 This repository contains a small end-to-end pipeline for training and running a driving agent on GTA V.
 
-Key scripts
+## Project case study
+
+See [case_studies.pdf](case_studies.pdf) for the project case study and implementation summary.
+
+This PDF captures the end-to-end motivation, methodology, and results for the autonomous driving pipeline in this repo.
+
+## Key scripts
 - `train.py` - training loop for StudentPolicy
 - `model.py` - model definition
 - `dataset.py` - dataset + minimap masking and frame stacking
